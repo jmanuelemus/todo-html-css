@@ -1,3 +1,7 @@
+body {
+    font: 15px Arial;
+}
+
 #app {
     border: 1px solid #d1d5da;
     border-radius: 3px;
@@ -8,21 +12,34 @@
 #app header {
     background: #f6f8fa;
     border-bottom: 1px solid #d1d5da;
-    height: 36px;
+    font-weight: bold;
+    padding: 9px 12px;
 }
 
-#app main > .cmd {
+#app .cmd {
     background: #fafbfc;
     border-bottom: 1px solid #d1d5da;
+    padding: 12px;
+}
+
+#app .cmd input {
+    background: transparent;
+    border-width: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    width: 100%;
 }
 
 #app main > ol {
     list-style: none;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #app main > ol > li {
     border-bottom: 1px solid #d1d5da;
+    padding: 12px 12px 9px;
 }
 
 #app main > ol > li:last-child {
