@@ -1,0 +1,30 @@
+#app {
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 330px;
+}
+
+#app header {
+    background: #f6f8fa;
+    border-bottom: 1px solid #d1d5da;
+    height: 36px;
+}
+
+#app main > .cmd {
+    background: #fafbfc;
+    border-bottom: 1px solid #d1d5da;
+}
+
+#app main > ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+#app main > ol > li {
+    border-bottom: 1px solid #d1d5da;
+}
+
+#app main > ol > li:last-child {
+    border-bottom: none;
+}
