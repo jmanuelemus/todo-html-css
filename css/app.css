@@ -6,7 +6,8 @@ body {
     border: 1px solid #d1d5da;
     border-radius: 3px;
     margin: 0 auto;
-    width: 330px;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
 #app header {
@@ -14,6 +15,11 @@ body {
     border-bottom: 1px solid #d1d5da;
     font-weight: bold;
     padding: 9px 12px;
+}
+
+#app header #date {
+    float: right;
+    text-transform: uppercase;
 }
 
 #app .cmd {
