@@ -37,17 +37,27 @@ body {
     width: 100%;
 }
 
-#app main > ol {
+#app main {
+    display: table;
+}
+
+#app .tasks {
+    display: none;
+    float: right;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#app main > ol > li {
+#app .tasks.current {
+    display: contents;
+}
+
+#app .tasks > li {
     border-bottom: 1px solid #d1d5da;
     padding: 12px 12px 9px;
 }
 
-#app main > ol > li:last-child {
+#app .tasks > li:last-child {
     border-bottom: none;
 }
