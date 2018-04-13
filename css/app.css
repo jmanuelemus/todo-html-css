@@ -22,13 +22,13 @@ body {
     text-transform: uppercase;
 }
 
-#app .cmd {
+#app #cmd {
     background: #fafbfc;
     border-bottom: 1px solid #d1d5da;
     padding: 12px;
 }
 
-#app .cmd input {
+#app #cmd input {
     background: transparent;
     border-width: 0;
     margin: 0;
